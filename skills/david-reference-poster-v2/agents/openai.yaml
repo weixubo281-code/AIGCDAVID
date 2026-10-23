@@ -1,0 +1,13 @@
+interface:
+  display_name: "产品参考海报复现2.0"
+  short_description: "逐张复现参考海报，以六视图锁定产品，并统一拟定名称、概念型号与文案"
+  default_prompt: "使用 $david-reference-poster-v2，前N−6张是海报参考，最后六张依次为正视图、正左侧、正右侧、后视图、顶视图、底视图；逐张按参考构图排版与审美实际出图，保持产品一致，名称、概念型号及所需文案由你统一拟定。"
+  icon_small: "assets/icon.svg"
+  icon_large: "assets/icon.svg"
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
