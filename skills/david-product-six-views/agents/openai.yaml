@@ -1,0 +1,13 @@
+interface:
+  display_name: David 产品六视图
+  short_description: 上传一张产品图，生成保持造型一致的六张正交视图，并注明隐藏面的推断
+  default_prompt: 用 $david-product-six-views，根据这张产品图生成正视图、正左侧视图、正右侧视图、后视图、顶视图和底视图，保持产品造型一致。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
